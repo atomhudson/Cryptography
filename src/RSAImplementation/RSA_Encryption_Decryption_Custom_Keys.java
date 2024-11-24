@@ -16,9 +16,9 @@ public class RSA_Encryption_Decryption_Custom_Keys {
         try {
             Scanner sc = new Scanner(System.in);
             // Public and Private Key Strings (replace with your keys)
-            String publicKeyBase64 = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvVC3Y3d9g66qniMN+E0ixs05TjXR0YVWX/t64uzMoWDUjrF54fnyib1uhjwhsUP4ZP+5vO+mNhwa3LmOuMpsOr+HPdshdeoTqx26gK98D3nSHQbVyj2X9UGkLdjoQmspQjmnt0Sxy/d/biotbbg1pFrV1YdVkJRZoEeSmBIctkwIDAQAB";
+            String publicKeyBase64 = "<Public key>";
 
-            String privateKeyBase64 = "MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAK9ULdjd32DrqqeIw34TSLGzTlONdHRhVZf+3ri7MyhYNSOsXnh+fKJvW6GPCGxQ/hk/7m876Y2HBrcuY64ymw6v4c92yF16hOrHbqAr3wPedIdBtXKPZf1QaQt2OhCaylCOae3RLHL939uKi1tuDWkWtXVh1WQlFmgR5KYEhy2TAgMBAAECgYBJflhPiUW7G15oJsiHny7AKmDBXlC7/hcChTg4KGRb24m+3+Cj0qWM82/uC4Zk3Rh+XhGk9/DBPiH/BEeNfDIJZrYfY3T2Su/OyK2W1AeWVaC+qzl1X0UyD9RL7ew6KhHXmZB6/EwbOlkzsxALjaDyUKEeYzj5RMuI5w27ISGngQJBAMnGAbZbQ1O+cOq/3K51Yv5u3YA4sPOBf8ydpnn5NUfxG+dVWqekSR5AKOuJHZqfRFVs17XsHinBWmKZn8qEWBMCQQDecsizPdXLc1wsMjH4zFygke0X50+Ec1pZrNJoojMW6QNq/NgdHSICSRpShdlfccdF9b+vuoHe8JmkZyHzf4SBAkB0F1vm2u2K4li/iDJloh6Z+5mv625MPGcWiGI/bZYtVVlTqXVmXQzAvfONSS/iRd6gM+aMwlS8e4YQkwkwESNHAkBZXtBXgu5UMOLFNt1w0dodAMO6qMn/ssCH6rEWLKRN/gvLfg3tlHjHZktXAEOW3wVqjBMZLNtkkFGKBY1UYNUBAkB1PGafm3x9Fi82OUcRu5a2OHEbsnvPS6MjgvzMGaBtiRhIPjonQ+aNRD/wGqG+Dpb6raS9sTPPNLKHBgpHpIz3";
+            String privateKeyBase64 = "<Private key>";
 
             // Step 1: Convert Base64 keys to PublicKey and PrivateKey objects
             PublicKey publicKey = getPublicKeyFromBase64(publicKeyBase64);
