@@ -2,7 +2,7 @@
 
 **Cryptography is the science of encrypting and decrypting information to prevent unauthorized access. The decryption process should be known to both the sender and the receiver.**
 
-> ![Image Placeholder](image1.png)
+![Encryption1](https://github.com/user-attachments/assets/e6c66f85-5b82-4a5a-9262-dcf0d29115cf)
 
 ---
 
@@ -65,7 +65,7 @@
   1. **Block Cipher**: Plaintext is broken into blocks and encrypted in a chained manner.
   2. **Stream Cipher**: Plaintext is encrypted one bit at a time.
 
-> ![Image Placeholder](image2.png)
+![symmetric-encryption](https://github.com/user-attachments/assets/11583cc6-9bfe-4e4d-97fa-c1cf36eb4f58)
 
 ### Examples of Symmetric Encryption:
 - **AES 256 (Advanced Encryption Standard)**  
@@ -89,7 +89,7 @@
   - It must be securely stored and never shared.
   - Example: The recipient decrypts the message using their private key.
 
-> ![Image Placeholder](image3.png)
+![Asymmetric-Encryption](https://github.com/user-attachments/assets/43bf90b3-727d-4749-b6a1-3d3539e67844)
 
 ### Examples of Asymmetric Encryption
 - **RSA Encryption (Rives, Shamir, Adleman) Encryption.**
@@ -116,7 +116,7 @@
   - Julius Caesar used a substitution cipher, appropriately named Caesar cipher today.
   - Alphabets are moved a by a certain number.
   - If the shift is 1, A becomes B, B becomes C and so on. 
-> ![caesar cipher](image4.png)
+![download](https://github.com/user-attachments/assets/96d4d2de-cfa5-4630-b783-1d2232813008)
 
 ### 2. The Enigma Machine
   - Developed and used by Nazi German armies in the World Wars.
