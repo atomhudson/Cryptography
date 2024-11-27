@@ -67,6 +67,26 @@
 
 > ![Image Placeholder](image2.png)
 
+### Types of encryptions in Symmetric Encryption.
+1. **Stream Ciphers** 
+   - **Encrypt information one bit/byte at time.**
+   - **Quicker format of encryption.**
+   - **Data is converted to binary digits and encrypted sequentially.**
+   - **Popular algorithms - RC4, Salsa20.**
+   
+> ![Stream Cipher](image2.png)
+> ![Stream Cipher](image2.png)
+
+2. **Block Ciphers**
+   - **Information broken down to chunks/blocks of fixed size.**
+   - **Size of block depends on key size.**
+   - **The chunks are encrypted and later chained together.**
+   - **Popular algorithms - AES, DES, 3DES.**
+
+> ![Block Ciphers](image2.png)
+> ![Block Ciphers](image2.png)
+> ![Block Ciphers](image2.png)
+
 ### Examples of Symmetric Encryption:
 - **AES 256 (Advanced Encryption Standard)**  
 - **DES (Data Encryption Standard)**  
@@ -116,7 +136,7 @@
   - Julius Caesar used a substitution cipher, appropriately named Caesar cipher today.
   - Alphabets are moved a by a certain number.
   - If the shift is 1, A becomes B, B becomes C and so on. 
-> ![caesar cipher](image4.png)
+> ![caesar cipher](image.png)
 
 ### 2. The Enigma Machine
   - Developed and used by Nazi German armies in the World Wars.
